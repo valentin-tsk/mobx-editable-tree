@@ -1,0 +1,42 @@
+.tree {
+  display: flex;
+  width: 100%;
+
+  &-view {
+    width: 65%;
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &-json {
+    width: 35%;
+  }
+
+  &-list {
+    * {
+      list-style: none;
+    }
+  }
+
+  &-nodes {
+    padding: 5px 0;
+  }
+
+  &-node {
+    padding-top: 5px;
+    &-control {
+
+    }
+
+    &-children{
+      padding: 0 20px 0;
+    }
+
+    &-attributes {
+      padding: 5px 10px 0;
+    }
+  }
+}
